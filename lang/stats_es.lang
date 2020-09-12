@@ -1,0 +1,6 @@
+hp: "salud"
+atk: "ataque"
+def: "defensa"
+spatk: "ataque especial"
+spdef: "defensa especial"
+speed: "velocidad"

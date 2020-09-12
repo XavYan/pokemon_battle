@@ -1,0 +1,6 @@
+hp: "health"
+atk: "attack"
+def: "defense"
+spatk: "sp. attack"
+spdef: "sp. defense"
+speed: "speed"
