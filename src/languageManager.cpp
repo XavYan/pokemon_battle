@@ -55,6 +55,7 @@ void LanguageManager::loadTexts () {
 std::string LanguageManager::getText (const std::string& key) const {
     if (texts_.find(key) != texts_.end()) {
         // std::cout << "DEBUG: Encontrado: Si\n";
+        // std::cout << "Found --> " << texts_.at(key) << '\n';
         return texts_.at(key);
     } else {
         // std::cout << "DEBUG: Encontrado: No\n";

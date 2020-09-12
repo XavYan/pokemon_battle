@@ -22,7 +22,7 @@ private:
 
     // Constants
     const std::regex langExtensionPattern = std::regex("([a-z][a-z])_[A-Z][A-Z]");
-    const std::regex textStringPattern = std::regex("([a-zA-Z]+): *\"([{}\\w-% .áéíóúÁÉÍÓÚ,/¿?:¡!ñ\\(\\)']*)\"");
+    const std::regex textStringPattern = std::regex("([a-zA-Z]+): *\"([{}\\s\\w-%.áéíóúÁÉÍÓÚ,/¿?:¡!ñ\\(\\)']*)\"");
     const std::string supportedLanguagesFile = "./langs.txt";
     const std::string languagesDirectory = "./lang";
 

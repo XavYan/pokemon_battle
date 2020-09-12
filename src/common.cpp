@@ -8,7 +8,7 @@ std::string formatString (std::string str, std::string arg1,
                                            std::string arg6) {
 
     // for "value=text" values
-    const std::regex substitutesPattern("([\\w_-]+)=([\\wáéíóúÁÉÍÓÚñ_-]*)");
+    const std::regex substitutesPattern("([\\w_-]+)=([\\wáéíóúÁÉÍÓÚñ\\s_-]*)");
 
     std::smatch result;
 
